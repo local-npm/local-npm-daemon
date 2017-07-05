@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/gabrielcsapo/local-npm-daemon.git"
   },
-  "author": "",
+  "author": "Gabriel J. Csapo <gabecsapo@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gabrielcsapo/local-npm-daemon/issues"
