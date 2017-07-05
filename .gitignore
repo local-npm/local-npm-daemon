@@ -56,4 +56,7 @@ typings/
 
 # dotenv environment variables file
 .env
-
+temp
+.DS_Store
+package-lock.json
+release

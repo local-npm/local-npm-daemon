@@ -1,2 +1,13 @@
 # local-npm-daemon
-An electron application to run local-npm 
+
+> An electron application to run local-npm
+
+## What is this?
+
+This is an electron application to quickly startup [local-npm](http://github.com/local-npm/local-npm)
+
+![example](./assets/example.png)
+
+## Download
+
+> coming soon

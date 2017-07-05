@@ -1,0 +1,31 @@
+{
+  "name": "local-npm-daemon",
+  "version": "0.0.1",
+  "description": "An electron application to run local-npm",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --overwrite --platform=linux,darwin --arch=x64 --icon=./assets/logo.icns --prune=true --out=release",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielcsapo/local-npm-daemon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielcsapo/local-npm-daemon/issues"
+  },
+  "homepage": "https://github.com/gabrielcsapo/local-npm-daemon#readme",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron-packager": "^8.7.2",
+    "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "electron-debug": "^1.2.0",
+    "electron-is-dev": "^0.2.0",
+    "local-npm": "^2.1.0"
+  }
+}
