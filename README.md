@@ -10,6 +10,4 @@ This is an electron application to quickly startup [local-npm](http://github.com
 
 ![example](./assets/example.png)
 
-## Download
-
-> coming soon
+## [Downloads](https://github.com/gabrielcsapo/local-npm-daemon/releases/latest)
