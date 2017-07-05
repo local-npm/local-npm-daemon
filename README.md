@@ -1,5 +1,7 @@
 # local-npm-daemon
 
+![logo](./assets/logo.png)
+
 > An electron application to run local-npm
 
 ## What is this?
