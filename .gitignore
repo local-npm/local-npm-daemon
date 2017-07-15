@@ -59,4 +59,4 @@ typings/
 temp
 .DS_Store
 package-lock.json
-release
+dist
