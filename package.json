@@ -1,6 +1,6 @@
 {
 	"name": "local-npm-daemon",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "An electron application to run local-npm",
 	"main": "index.js",
 	"scripts": {
@@ -18,11 +18,11 @@
 	},
 	"homepage": "https://github.com/gabrielcsapo/local-npm-daemon#readme",
 	"devDependencies": {
-		"electron": "^1.6.11",
+		"electron": "^1.7.5",
 		"electron-packager": "^8.7.2",
-		"electron-rebuild": "^1.5.11"
+		"electron-rebuild": "^1.6.0"
 	},
 	"dependencies": {
-		"local-npm": "^2.2.0"
+		"local-npm": "^2.2.1"
 	}
 }

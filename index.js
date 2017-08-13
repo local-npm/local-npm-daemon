@@ -2,12 +2,12 @@ const { app, BrowserWindow, ipcMain, Tray, Menu, MenuItem, shell } = require('el
 
 const path = require('path')
 const local = require('local-npm');
+const os = require('os');
 
-const assetsDir = path.join(__dirname, 'assets');
-const tempDir = path.join(__dirname, 'temp');
+const assetsDir = path.resolve(__dirname, 'assets');
 
 const server = local({
-    directory: tempDir,
+    directory: path.resolve(os.homedir(), '.local-npm'),
     port: 5678,
     pouchPort: 3040,
     logLevel: 'error',
@@ -22,7 +22,7 @@ const server = local({
 let tray;
 
 app.on('ready', () => {
-  tray = new Tray(path.resolve(__dirname, './assets/cloudTemplate.png'));
+  tray = new Tray(path.resolve(assetsDir, 'cloudTemplate.png'));
 
   var requests = 0;
   var sync = 0;
